@@ -1,0 +1,264 @@
+header{
+    width: 37.5rem;
+    height: 21.4rem;
+    background: url("../images/headerBg.png") center no-repeat;
+    background-size: cover;
+}
+section{
+    padding: 0 1.5rem;
+}
+section .title{
+    margin: 1.5rem 0 0.5rem 0;
+    box-sizing: border-box;
+    padding-left: 0.5rem;
+    width: 10rem;
+    height: 2.5rem;
+    border-bottom: 0.15rem solid #1b80c0;
+}
+section .title.xuemei{
+    border-bottom-color: #ff5d5d;
+}
+section .title.huafei{
+    width: 14.5rem;
+    border-bottom-color: #894a30;
+}
+section .title.shuoming{
+    border-bottom-color: #623623;
+}
+section .title span:nth-child(1){
+    display: inline-block;
+    width: 2.2rem;
+    height: 2.35rem;
+    background: url("../images/titleIcon.png") center no-repeat;
+    background-size: cover;
+}
+section .title span:nth-child(2){
+    margin-left: 0.4rem;
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    vertical-align: top;
+    color: #1b80c0;
+}
+section .title.xuemei span:nth-child(2){
+    color: #ff5d5d;
+}
+section .title.huafei span:nth-child(2){
+    color: #894a30
+}
+section .title.shuoming span:nth-child(2){
+    color: #623623;
+}
+section .pic{
+    position: relative;
+    width: 34.5rem;
+    height: 18rem;
+}
+section .pic.ka-1{
+    background: url("../images/ka-1.png") center no-repeat;
+    background-size: cover;
+}
+section .pic.ka-2{
+    background: url("../images/ka-2.png") center no-repeat;
+    background-size: cover;
+}
+section .pic span{
+    position: absolute;
+    display: inline-block;
+    width: 7.7rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color: #fffefc;
+    background: url("../images/buttonBg.png") center no-repeat;
+    background-size: cover;
+}
+section .pic.ka-1 span{
+    right: 1.3rem;
+    bottom: 7rem;
+}
+section .pic.ka-2 span{
+    right: 1.3rem;
+    bottom: 1.3rem;
+}
+section .phoneList{
+    margin-bottom: 0.5rem;
+}
+section .phoneList ul li{
+    box-sizing: border-box;
+    float: left;
+    width: 17.25rem;
+    height: 26.1rem;
+    text-align: center;
+    border: 0.05rem solid #999999;
+}
+section .phoneList ul li:nth-child(2){
+    border-left: none;
+}
+section .phoneList ul li:nth-child(3){
+    border-top: none;
+}
+section .phoneList ul li:nth-child(4){
+    border-left: none;
+    border-top: none;
+}
+section .phoneList ul li span{
+    display: block;
+    margin: 0.5rem auto 0;
+    width: 15rem;
+    height: 15rem;
+}
+section .phoneList ul li:nth-child(1) span:nth-child(1){
+    background: url("../images/phoneList-01.png") center no-repeat;
+    background-size: cover;
+}
+section .phoneList ul li:nth-child(2) span:nth-child(1){
+    background: url("../images/phoneList-02.png") center no-repeat;
+    background-size: cover;
+}
+section .phoneList ul li:nth-child(3) span:nth-child(1){
+    background: url("../images/phoneList-03.png") center no-repeat;
+    background-size: cover;
+}
+section .phoneList ul li:nth-child(4) span:nth-child(1){
+    background: url("../images/phoneList-04.png") center no-repeat;
+    background-size: cover;
+}
+section .phoneList ul li p:nth-child(2){
+    font-size: 1.7rem;
+    line-height: 3rem;
+    color: #ff0000;
+}
+section .phoneList ul li p:nth-child(2) i{
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-style: normal;
+}
+section .phoneList ul li p:nth-child(3){
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #151515;
+}
+section .phoneList ul li p:nth-child(4){
+    font-size: 1.2rem;
+    color: #999999;
+}
+section .phoneList ul li span:nth-child(5){
+    display: inline-block;
+    width: 8.7rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 2.5rem;
+    color: #fffefc;
+    background: url("../images/phoneListButtonBg.png") center no-repeat;
+    background-size: cover;
+}
+section .tableWrap{
+    text-align: center;
+}
+section .tableWrap p{
+    font-size: 1.7rem;
+    line-height: 4rem;
+    color: #333333;
+}
+section .tableWrap table{
+    border-color: #000000;
+}
+section .tableWrap table tr th{
+    box-sizing: border-box;
+    padding: 0 0.2rem;
+    width: 2.9rem;
+    height: 5rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    color: #000000;
+    background-color: #b6efff;
+}
+section .tableWrap table tr th:nth-child(2){
+    line-height: 1.5rem;
+}
+section .tableWrap table tr th:nth-child(7) div:nth-child(1){
+    position: absolute;
+    top:0;
+    width: 100%;
+    line-height: 2rem;
+    text-align: center;
+}
+section .tableWrap table tr th:nth-child(7) div:nth-child(2){
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #000000;
+    height: 3rem;
+}
+section .tableWrap table tr th:nth-child(7) div:nth-child(2) span{
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 5rem;
+    height: 3rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+section .tableWrap table tr th:nth-child(7) div:nth-child(2) span:nth-child(1){
+    left: 0;
+    border-right: 1px solid #000000;
+}
+section .tableWrap table tr th:nth-child(7) div:nth-child(2) span:nth-child(2){
+    width: 4.3rem;
+    right: 0;
+}
+section .tableWrap table tr th:nth-child(2),section .tableWrap table tr th:nth-child(3){
+    width: 3.7rem;
+}
+section .tableWrap table tr th:nth-child(4),section .tableWrap table tr th:nth-child(6){
+    width: 5.2rem;
+}
+section .tableWrap table tr th:nth-child(7){
+    position: relative;
+    width: 10.7rem;
+}
+section .tableWrap table tr td{
+    height: 2.5rem;
+    font-size: 1.2rem;
+    color: #000000;
+    background-color: #e5f9ff;
+}
+section .tableWrap table .tableFooter td{
+    padding: 0.6rem 1rem;
+    text-align: left;
+}
+section .tableWrap table .tableFooter td p{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: #333333;
+}
+section .tableWrap table .tableFooter td p:nth-child(2){
+    color: #f74b0f;
+}
+section .tableWrap table .tableFooter td p:nth-child(2) i{
+    font-style: normal;
+    font-weight: bold;
+}
+section .text{
+    padding: 2rem 1.5rem 2rem 2.5rem;
+    border-radius: 1rem 1rem 0 0;
+    background-color: #d2fee8;
+}
+
+section .text p{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    text-indent: -1rem;
+    text-align: justify;
+    color: #333333;
+}
+footer div{
+    margin: -1rem auto;
+    width: 35.4rem;
+    height: 1.95rem;
+    background: url("../images/footerBg.png") center no-repeat;
+    background-size: cover;
+}
