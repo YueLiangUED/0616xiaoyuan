@@ -167,9 +167,6 @@ section .tableWrap table{
 }
 section .tableWrap table tr th{
     box-sizing: border-box;
-    padding: 0 0.2rem;
-    width: 2.9rem;
-    height: 5rem;
     font-size: 1.1rem;
     line-height: 1.5rem;
     color: #000000;
@@ -177,6 +174,15 @@ section .tableWrap table tr th{
 }
 section .tableWrap table tr th:nth-child(2){
     line-height: 1.5rem;
+}
+section .tableWrap table tr:nth-child(1) th:nth-child(1),section .tableWrap table tr:nth-child(1) th:nth-child(5){
+    width: 2.9rem;
+}
+section .tableWrap table tr:nth-child(1) th:nth-child(4),section .tableWrap table tr:nth-child(1) th:nth-child(6){
+    width: 5rem;
+}
+section .tableWrap table tr:nth-child(2) th:nth-child(1),section .tableWrap table tr:nth-child(2) th:nth-child(2){
+    width: 7rem;
 }
 section .tableWrap table tr th:nth-child(7) div:nth-child(1){
     position: absolute;
@@ -212,9 +218,6 @@ section .tableWrap table tr th:nth-child(7) div:nth-child(2) span:nth-child(2){
 }
 section .tableWrap table tr th:nth-child(2),section .tableWrap table tr th:nth-child(3){
     width: 3.7rem;
-}
-section .tableWrap table tr th:nth-child(4),section .tableWrap table tr th:nth-child(6){
-    width: 5.2rem;
 }
 section .tableWrap table tr th:nth-child(7){
     position: relative;
