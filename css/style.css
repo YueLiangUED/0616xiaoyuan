@@ -182,7 +182,7 @@ section .tableWrap table tr:nth-child(1) th:nth-child(4),section .tableWrap tabl
     width: 5rem;
 }
 section .tableWrap table tr:nth-child(2) th:nth-child(1),section .tableWrap table tr:nth-child(2) th:nth-child(2){
-    width: 7rem;
+    width: 6.5rem;
 }
 section .tableWrap table tr th:nth-child(7) div:nth-child(1){
     position: absolute;
@@ -230,7 +230,7 @@ section .tableWrap table tr td{
     background-color: #e5f9ff;
 }
 section .tableWrap table .tableFooter td{
-    padding: 0.6rem 1rem;
+    padding: 0.6rem 1rem 0.6rem 3rem;
     text-align: left;
 }
 section .tableWrap table .tableFooter td p{
@@ -238,9 +238,12 @@ section .tableWrap table .tableFooter td p{
     line-height: 1.5rem;
     color: #333333;
 }
-section .tableWrap table .tableFooter td p:nth-child(2){
-    color: #f74b0f;
+section .tableWrap table .tableFooter td p:nth-child(1){
+    text-indent: -2.4rem;
 }
+/*section .tableWrap table .tableFooter td p:nth-child(2){
+    color: #f74b0f;
+}*/
 section .tableWrap table .tableFooter td p:nth-child(2) i{
     font-style: normal;
     font-weight: bold;
